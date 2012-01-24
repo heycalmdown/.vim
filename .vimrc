@@ -23,13 +23,13 @@ set fenc=utf-8
 "set enc=utf-8
 set hlsearch
 if has('running_gui')
-		set lines=50
-		set columns=120
+	set lines=50
+	set columns=120
+	colo solarized
 endif
 syntax on
 
 set guifont=나눔고딕코딩:h12
-colo solarized
 "colo koehler
 
 filetype on
