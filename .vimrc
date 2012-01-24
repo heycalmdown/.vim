@@ -22,8 +22,10 @@ set fencs=ucs-bom,utf8,cp949
 set fenc=utf-8
 "set enc=utf-8
 set hlsearch
-set lines=50
-set columns=120
+if has('running_gui')
+		set lines=50
+		set columns=120
+endif
 syntax on
 
 set guifont=나눔고딕코딩:h12
